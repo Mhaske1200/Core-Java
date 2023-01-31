@@ -1,0 +1,15 @@
+package prime_multi;
+
+public class Prime implements Runnable 
+{
+	private Thread t;
+	
+
+	@Override
+	public void run() 
+	{
+		
+		
+	}
+
+}

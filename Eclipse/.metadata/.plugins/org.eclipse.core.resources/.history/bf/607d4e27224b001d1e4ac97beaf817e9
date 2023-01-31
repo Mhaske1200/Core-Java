@@ -1,0 +1,20 @@
+package printingdata;
+
+public class Printing_Task implements Runnable 
+{
+	private Printer print;
+	
+
+	public Printing_Task(String s1 , String s2 , String s3) 
+	{
+		print = new Printer(s1 , s2 , s3);
+	}
+	
+	@Override
+	public void run() 
+	{
+		 
+
+	}
+
+}

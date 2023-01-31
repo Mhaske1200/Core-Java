@@ -1,0 +1,58 @@
+package prime_multi;
+
+import java.util.Scanner;
+
+public class Prime implements Runnable 
+{
+	private Thread t;
+	int sn;
+	int en;
+	
+	public Prime()
+	{
+		sn=0;
+		en=0;
+		t = new Thread(this);
+	}
+	public Prime(int sn , int en)
+	{
+		this.sn=sn;
+		this.en=en;
+		t=new Thread (this);
+	}
+	
+	public Thread getT() 
+	{
+		return t;
+	}
+	
+	@Override
+	public void run() 
+	{
+		
+		try 
+		{
+			for(int j = sn ; j<=en ; j++)
+			{boolean flag = true;
+				for(int i = 2 ; i<j ; i++)
+				{
+					if(j%i == 0)
+					{
+						flag = false;
+						break;
+					}
+				}
+				if(flag == true)
+				{
+					System.out.println(j+" -Number is Prime");
+				}
+			}
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		
+	}
+
+}

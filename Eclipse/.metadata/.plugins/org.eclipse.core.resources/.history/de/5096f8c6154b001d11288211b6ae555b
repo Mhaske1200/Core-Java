@@ -1,0 +1,11 @@
+package Instruction;
+
+public class Thread_Divisor implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

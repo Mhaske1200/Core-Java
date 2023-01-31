@@ -1,0 +1,18 @@
+package printingdata;
+
+public class Printing_Task implements Runnable 
+{
+
+	public Printing_Task() 
+	{
+		
+	}
+	
+	@Override
+	public void run() 
+	{
+		 
+
+	}
+
+}

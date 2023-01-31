@@ -1,0 +1,39 @@
+package printingdata;
+
+public class Printing_Task implements Runnable 
+{
+	
+	private Thread t;
+	String s1;
+	String s2;
+	String s3;
+	
+public Printing_Task()
+{
+	t = new Thread(this);
+	String s1;
+	String s2;
+	String s3;
+}
+public Printing_Task(String s1,String s2,String s3)
+{
+	t = new Thread(this);
+	this.s1 = s1;
+	this.s2 = s2;
+	this.s3 = s3;
+	
+}
+
+	@Override
+	public void run() 
+	{
+		
+	}
+	
+	public Thread getT() 
+	{
+		return t;
+	}
+
+
+}

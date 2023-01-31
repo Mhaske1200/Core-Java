@@ -1,0 +1,5 @@
+package countdown_multi;
+
+public class CountDown extends Thread {
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;multi.Display_Name_Prioirty&apos; to &apos;Display_Name_Prioirty_Using_ThreadClass&apos;&#x0D;&#x0A;- Original project: &apos;MultiThreading&apos;&#x0D;&#x0A;- Original element: &apos;multi.Display_Name_Prioirty&apos;&#x0D;&#x0A;- Renamed element: &apos;multi.Display_Name_Prioirty_Using_ThreadClass&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Display_Name_Prioirty&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;multi{Display_Name_Prioirty.java[Display_Name_Prioirty" matchStrategy="1" name="Display_Name_Prioirty_Using_ThreadClass" qualified="false" references="true" similarDeclarations="false" stamp="1665667777925" textual="false" version="1.0"/>
+</session>

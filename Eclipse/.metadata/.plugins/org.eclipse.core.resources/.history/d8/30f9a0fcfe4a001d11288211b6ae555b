@@ -1,0 +1,17 @@
+package countdown_multi;
+
+public class CountDown extends Thread 
+{
+	private Thread t;
+	
+	public CountDown() 
+	{
+		t = new Thread();
+	}
+	public CountDown( Thread t)
+	{
+		t = new Thread(this);
+	}
+	
+	
+}

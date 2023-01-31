@@ -1,0 +1,11 @@
+package prime_multi;
+
+public class Prime implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package stock;
+
+public class Consumer implements Runnable 
+{
+	private Thread t;
+	Stock s;
+	boolean brun;
+	
+	public Consumer(Stock s)
+	{
+		this.s = s;
+	}
+	
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

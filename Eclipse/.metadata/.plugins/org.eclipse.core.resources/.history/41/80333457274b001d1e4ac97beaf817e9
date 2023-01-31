@@ -1,0 +1,18 @@
+package stock;
+
+public class Stock 
+{
+	private int qtyproduced;
+	private int qtyconsumed;
+	boolean bproduced;
+	
+	public int getqtyproduced ()
+	{
+		return qtyproduced;
+	}
+	public int getqtyconsumed ()
+	{
+		return qtyconsumed;
+	}
+
+}

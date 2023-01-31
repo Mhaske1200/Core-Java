@@ -1,0 +1,11 @@
+package read_write_multi;
+
+public class FileIO_Multi implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

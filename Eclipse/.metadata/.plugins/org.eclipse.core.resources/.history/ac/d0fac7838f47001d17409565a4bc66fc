@@ -1,0 +1,16 @@
+package comndline;
+
+public class DateEquality 
+{
+	public static void main(String[] args) 
+	{
+		Date d1 = new Date();
+		d1.show();
+		
+		Date d2 = new Date(9,12,1995);
+		d2.show();
+		
+		Date d3 = new Date(21,6,1995);
+		d3.show();
+	}
+}

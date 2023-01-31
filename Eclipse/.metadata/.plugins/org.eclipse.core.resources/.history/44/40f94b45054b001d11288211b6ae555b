@@ -1,0 +1,35 @@
+package read_write_multi;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.Scanner;
+
+public class FileIO_Multi implements Runnable 
+{
+	Thread t;
+	
+	public FileIO_Multi() 
+	{
+		t = new Thread(this);
+	}
+		
+	public Thread getT() {
+		return t;
+	}
+
+
+	BufferedReader br = new BufferedReader(new FileReader("D:\\SHUBHAM&VISHAL PGDAC_SEPT_2022"));
+	
+	@Override
+	public void run() 
+	{	
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Source File Name - ");
+		String s = sc.next();
+		BufferedReader br = new BufferedReader(new FileReader("D:\\SHUBHAM&VISHAL PGDAC_SEPT_2022\\"+s));
+		
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package Instruction;
+
+public class Main {
+
+	public static void main(String[] args) 
+	{
+		Runnable r = new Thread_Divisor(12);
+		Thread t = new Thread(r);
+		
+		t.start();
+
+	}
+
+}

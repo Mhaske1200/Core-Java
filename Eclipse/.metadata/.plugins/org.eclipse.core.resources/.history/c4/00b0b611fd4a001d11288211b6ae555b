@@ -1,0 +1,29 @@
+package multi;
+
+public class Display_Name_Prioirty_Using_Runnable implements Runnable {
+
+	private Thread t;
+	
+	Display_Name_Prioirty_Using_Runnable()
+	{
+		t=new Thread();
+	}
+	Display_Name_Prioirty_Using_Runnable(Thread t)
+	{
+		t=new Thread(this);
+	}
+	
+	@Override
+	public void run() 
+	{
+			
+			
+	}
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

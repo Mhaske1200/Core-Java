@@ -1,0 +1,24 @@
+package printingdata;
+
+public class Main_Printer 
+{
+
+	public static void main(String[] args) 
+	{	
+		Printing_Task p1 = new Printing_Task();
+		Printing_Task p2 = new Printing_Task();
+		Printing_Task p3 = new Printing_Task();
+		
+		System.out.println("");
+		
+		p1.getT().start();
+		p2.getT().start();
+		p3.getT().start();
+		
+		
+		 Runnable r = new Printer();
+		 Thread t = new Thread(r);
+
+	}
+
+}

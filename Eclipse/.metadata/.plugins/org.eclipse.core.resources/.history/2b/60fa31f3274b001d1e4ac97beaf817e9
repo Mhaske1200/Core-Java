@@ -1,0 +1,34 @@
+package stock;
+
+public class Stock 
+{
+	private int qtyproduced;
+	private int qtyconsumed;
+	boolean bproduced;
+	
+	public int getqtyproduced ()
+	{
+		return qtyproduced;
+	}
+	public int getqtyconsumed ()
+	{
+		return qtyconsumed;
+	}
+	
+	public void produce()
+	{
+		if(bproduced)
+		{
+			try {
+					wait();
+				}
+			catch (Exception e)
+			{
+				e.printStackTrace();
+			}
+		}
+		qtyproduced++;
+		
+	}
+
+}

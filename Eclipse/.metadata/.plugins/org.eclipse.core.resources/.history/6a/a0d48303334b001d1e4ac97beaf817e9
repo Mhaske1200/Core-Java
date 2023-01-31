@@ -1,0 +1,36 @@
+package countryExcep;
+
+public class InvalidCountryException extends Exception 
+{
+	String msg;
+	
+	public String getmsg()
+	{
+		return msg;
+	}
+	public String setmsg()
+	{
+		return this.msg = msg;
+	}
+	
+	
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
+	public InvalidCountryException()
+	{
+		msg= "User Outside India Cannot be Registered";
+	}
+	
+	@Override
+	public String toString() {
+		return "InvalidCountryException [msg=" + msg + "]";
+	}
+	
+	public void display(Exception e)
+	{
+		System.out.println(e);
+		e.printStackTrace();
+	}
+	
+}

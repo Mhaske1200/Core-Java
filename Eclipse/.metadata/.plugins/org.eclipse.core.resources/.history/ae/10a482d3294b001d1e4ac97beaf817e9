@@ -1,0 +1,18 @@
+package stock;
+
+public class Main {
+
+	public static void main(String[] args) 
+	{
+		Stock s = new Stock();
+		
+		Producer p = new Producer(s);
+		Consumer c = new Consumer (s);
+		
+		p.getT().start();
+		c.getT().start();
+		
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package Instruction;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Number 1 to Check the Divisors - ");
+		int num1 = sc.nextInt();
+		System.out.println("Enter Number 2 to Check the Divisors - ");
+		int num2 = sc.nextInt();
+		System.out.println("Enter Number 3 to Check the Divisors - ");
+		int num3 = sc.nextInt();
+		
+		Thread_Divisor r1 = new Thread_Divisor(num1);
+		Thread_Divisor r2 = new Thread_Divisor(num2);
+		Thread_Divisor r3 = new Thread_Divisor(num3);
+		
+		
+		Thread t1 = new Thread(r1);
+		Thread t2 = new Thread(r2);
+		Thread t3 = new Thread(r3);
+		
+		
+		t1.start();
+		t2.start();
+		t3.start();
+
+	}
+
+}
